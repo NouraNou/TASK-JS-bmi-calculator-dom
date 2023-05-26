@@ -6,14 +6,14 @@ function calculateBMI() {
   let male = document.getElementById("m").checked;
   let female = document.getElementById("f").checked;
   console.table({ age, weight, height, male, female });
-  const BMI = weight / ((hight * hight) / 100);
+  const BMI = weight / ((height * height) / 100);
   // You are going to write the code here before the curly braces 👇🏻
 
   if (wieght <= 18.5) {
     alert("your are underwieght");
-  } else if (wieght >= 18.5 && wieght <= 24.9) {
+  } else if (weight >= 18.5 && weight <= 24.9) {
     alert("you are healthy");
-  } else if (wieght >= 25 && wieght <= 29.9) {
+  } else if (weight >= 25 && weight <= 29.9) {
     alert("you are overwieght");
   } else {
     alert("you are obisity");
